@@ -34,10 +34,8 @@ h1{
   background-color: white;
   text-align: center;
   border-radius: 25px;
-  float:left;
-  margin:19px;
-  padding: 10px;
-  display: inline-block;
+  padding:15px;
+  margin: auto;
 }
 
 
@@ -63,4 +61,5 @@ strong{
 .ult{
   border: solid 2px #553df4;
   color: #553df4;
+  background-color: white;
 }
