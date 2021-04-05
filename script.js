@@ -32,8 +32,8 @@ $(function(){
        calculateincrement();
       });
       function calculateincrement(){
-          var bas = parseInt($('#base').val());
-          var inc = parseInt($('#increment').val());
+          var bas = parseFloat($('#base').val());
+          var inc = parseFloat($('#increment').val());
           var per="";
           if(isNaN(bas) || isNaN(inc)){
               per=" ";
@@ -53,8 +53,8 @@ $(function(){
          calculatedecrement();
         });
         function calculatedecrement(){
-            var basd = parseInt($('#basede').val());
-            var dec = parseInt($('#dement').val());
+            var basd = parseFloat($('#basede').val());
+            var dec = parseFloat($('#dement').val());
             var pero="";
             if(isNaN(basd) || isNaN(dec)){
                 pero=" ";
@@ -75,8 +75,8 @@ $(function(){
        calculatepercent();
       });
       function calculatepercent(){
-          var uno = parseInt($('#firstNumber').val());
-          var duepercent = parseInt($('#percent').val());
+          var uno = parseFloat($('#firstNumber').val());
+          var duepercent = parseFloat($('#percent').val());
           var perce="";
           if(isNaN(uno) || isNaN(duepercent)){
               perce=" ";
