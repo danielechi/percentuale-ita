@@ -14,7 +14,7 @@ $(function(){
         if(isNaN(pPos) || isNaN(pEarned)){
             perc=" ";
            }else{
-           perc = ((pEarned/pPos) * 100).toFixed(3);
+           perc = ((pEarned/pPos) * 100).toFixed(2);
            }
            $('#pointsperc').val(perc);
              }
@@ -81,7 +81,7 @@ $(function(){
           if(isNaN(uno) || isNaN(duepercent)){
               perce=" ";
              }else{
-             perce = ((uno*duepercent) / 100).toFixed(3);
+             perce = ((uno*duepercent) / 100).toFixed(2);
              }
              $('#resu').val(perce);
                }
