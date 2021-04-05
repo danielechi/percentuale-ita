@@ -8,8 +8,8 @@ $(function(){
      calculate();
     });
     function calculate(){
-        var pPos = parseInt($('#pointspossible').val());
-        var pEarned = parseInt($('#pointsgiven').val());
+        var pPos = parseFloat($('#pointspossible').val());
+        var pEarned = parseFloat($('#pointsgiven').val());
         var perc="";
         if(isNaN(pPos) || isNaN(pEarned)){
             perc=" ";
