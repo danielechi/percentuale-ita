@@ -130,7 +130,4 @@
     .col-lg-offset-top-12 {margin-top: calc((100% / 12) * 12);}
 }
 
-@media screen and (max-width: 450px) {
-.container1{
-  display: inline-block!important;
-}
+
