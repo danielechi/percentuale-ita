@@ -11,8 +11,14 @@
 }
 
 body{
-  background-color: #553df4;
-  font-family: 'Open Sans', sans-serif;
+  background: rgb(85,61,244);
+background: -moz-linear-gradient(0deg, rgba(85,61,244,1) 0%, rgba(6,174,194,1) 61%);
+background: -webkit-linear-gradient(0deg, rgba(85,61,244,1) 0%, rgba(6,174,194,1) 61%);
+background: linear-gradient(0deg, rgba(85,61,244,1) 0%, rgba(6,174,194,1) 61%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#553df4",endColorstr="#06aec2",GradientType=1);
+
+  /* background-color: #553df4; */
+font-family: 'Open Sans', sans-serif;
 }
 h1{
   text-align: center;
@@ -35,7 +41,7 @@ h1{
   text-align: center;
   border-radius: 25px;
   padding:15px;
-  margin: auto;
+  margin: 30px auto;
 }
 
 
@@ -47,6 +53,7 @@ text-align: center;
 border-radius: 10px;
 margin: auto;
 outline: none;
+font-size: 14px
 }
 
 p{
@@ -59,14 +66,16 @@ strong{
 }
 
 .ult{
-  border: solid 2px #553df4;
+  border: solid 3px #553df4;
   color: #553df4;
-  background-color: white;
+  background-color: #ffff;
 }
 
-@media screen and (max-width: 380px) {
+
+}
+@media screen and (max-width: 450px) {
   .container1 {
-    margin:30px 30px;
+    margin:32px 32px!important;
 
   }
 }
